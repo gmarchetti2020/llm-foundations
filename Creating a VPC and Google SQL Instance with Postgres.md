@@ -55,6 +55,8 @@ Replace `<private-ip-address>` with the private IP address of your SQL instance.
 
 # 5\. Connecting from Colab Enterprise to the Google Cloud SQL Instance
 
-1. Once the Colab Enterprise template is created, launch a notebook instance from the template.  
-2. In the notebook, you can use a PostgreSQL library (like \`psycopg2\` in Python) to connect to the database using the private IP address and the root password.
+1. Once the Colab Enterprise template is created, upload the relevant notebook from the github repository.
+2. Create a new runtime for the notebook using the template. 
+3. Enter the pre-deployed instance name in the notebook configuration section.
+3. Follow the rest of the instructions in the notebook to connect to the instance and run the lab. 
 
